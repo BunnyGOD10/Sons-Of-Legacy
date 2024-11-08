@@ -14,19 +14,18 @@ body {
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-color: red; /* Set background color to red */
 }
 
 /* Header Section */
 header {
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.6);  /* Semi-transparent background to enhance text visibility */
+  background-color: rgba(0, 0, 0, 0.6);
   color: white;
   padding: 40px 20px;
 }
 
 header .logo img {
-  width: 150px; /* Adjust logo size */
+  width: 150px;
   height: auto;
   margin-bottom: 20px;
 }
@@ -43,7 +42,7 @@ header p {
 section {
   padding: 20px;
   margin: 20px 0;
-  background-color: rgba(255, 255, 255, 0.8); /* Slight transparency for better readability */
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
 }
 
@@ -54,6 +53,23 @@ section h2 {
 
 section p {
   font-size: 1.1em;
+}
+
+/* YouTube Section Styling */
+.youtube {
+  text-align: center;
+  padding: 20px;
+}
+
+.youtube-logo {
+  width: 100px; /* Adjust size as needed */
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.youtube-logo:hover {
+  transform: scale(1.1); /* Slightly increase the size when hovered */
 }
 
 /* Gallery Style */
@@ -78,19 +94,12 @@ section p {
   max-width: 300px;
   height: auto;
   border-radius: 8px;
-  cursor: pointer; /* Add pointer cursor on hover */
-}
-
-/* Logo for the gallery */
-.gallery-logo img {
-  width: 150px; /* Adjust size of the logo */
-  cursor: pointer; /* Change cursor to indicate it's clickable */
-  margin-bottom: 20px;
+  cursor: pointer;
 }
 
 /* Expanded Gallery */
 .expanded-gallery {
-  display: none; /* Hidden by default */
+  display: none;
   margin-top: 20px;
 }
 
@@ -102,44 +111,10 @@ section p {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* YouTube Section */
-.youtube {
-  text-align: center;
-  margin: 40px 0;
-}
-
-.youtube a {
-  text-decoration: none;
-  color: #fff;
-  background-color: #ff4500;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-size: 1.2em;
-}
-
-.youtube a:hover {
-  background-color: #e03e00;
-}
-
 /* Footer Style */
 footer {
   text-align: center;
   padding: 10px;
   background-color: #333;
   color: white;
-}
-
-/* Responsive Design for Smaller Screens */
-@media (max-width: 768px) {
-  header h1 {
-    font-size: 2em;
-  }
-
-  section h2 {
-    font-size: 1.8em;
-  }
-
-  .gallery .photos img {
-    max-width: 100%;  /* Ensure images fit the smaller screen size */
-  }
 }
