@@ -86,4 +86,5 @@ section p {
   width: 100%;
   max-width: 600px;
   margin-bottom: 15px;
-  border-radius
+  border-radius: 8px;
+  box-shadow: 0 4px 6px 
