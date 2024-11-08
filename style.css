@@ -9,22 +9,22 @@
 body {
   font-family: Arial, sans-serif;
   color: #333;
-  background-image: url('https://i.postimg.cc/wj1r6jyZ/Screenshot-490.png'); /* Your background image URL */
-  background-size: cover;  /* Ensure the image covers the entire page */
-  background-position: center; /* Keep the image centered */
-  background-attachment: fixed; /* Keep the background fixed when scrolling */
-  background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+  background-image: url('https://i.postimg.cc/wj1r6jyZ/Screenshot-490.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 header {
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.6);  /* Semi-transparent background to enhance text visibility */
+  background-color: rgba(0, 0, 0, 0.6);
   color: white;
   padding: 40px 20px;
 }
 
 header .logo img {
-  width: 150px;  /* Adjust logo size */
+  width: 150px;
   height: auto;
   margin-bottom: 20px;
 }
@@ -40,7 +40,7 @@ header p {
 section {
   padding: 20px;
   margin: 20px 0;
-  background-color: rgba(255, 255, 255, 0.8); /* Slight transparency for better readability */
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
 }
 
@@ -74,11 +74,11 @@ section p {
   max-width: 300px;
   height: auto;
   border-radius: 8px;
-  cursor: pointer; /* Add pointer cursor on hover */
+  cursor: pointer;
 }
 
 .expanded-gallery {
-  display: none; /* Hidden by default */
+  display: none;
   margin-top: 20px;
 }
 
@@ -126,6 +126,6 @@ footer {
   }
 
   .gallery .photos img {
-    max-width: 100%;  /* Ensure images fit the smaller screen size */
+    max-width: 100%;
   }
 }
