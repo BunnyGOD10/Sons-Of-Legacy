@@ -9,11 +9,11 @@
 body {
   font-family: Arial, sans-serif;
   color: #333;
-  background-image: url('https://i.postimg.cc/wj1r6jyZ/Screenshot-490.png'); /* Your background image URL */
-  background-size: cover;  /* Ensure the image covers the entire page */
-  background-position: center; /* Keep the image centered */
-  background-attachment: fixed; /* Keep the background fixed when scrolling */
-  background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+  background-image: url('https://i.postimg.cc/wj1r6jyZ/Screenshot-490.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   background-color: red; /* Set background color to red */
 }
 
@@ -79,6 +79,13 @@ section p {
   height: auto;
   border-radius: 8px;
   cursor: pointer; /* Add pointer cursor on hover */
+}
+
+/* Logo for the gallery */
+.gallery-logo img {
+  width: 150px; /* Adjust size of the logo */
+  cursor: pointer; /* Change cursor to indicate it's clickable */
+  margin-bottom: 20px;
 }
 
 /* Expanded Gallery */
