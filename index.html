@@ -4,26 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sons of Legacy</title>
-  <!-- Link to the external CSS file -->
   <link rel="stylesheet" href="styles.css">
-  <script>
-    // JavaScript to handle image expansion when clicked
-    function expandImage(imgSrc) {
-      const expandedGallery = document.getElementById('expanded-gallery');
-      const expandedImage = document.getElementById('expanded-image');
-      expandedImage.src = imgSrc;
-      expandedGallery.style.display = 'block';
-    }
-
-    // Function to close the expanded gallery
-    function closeGallery() {
-      const expandedGallery = document.getElementById('expanded-gallery');
-      expandedGallery.style.display = 'none';
-    }
-  </script>
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <!-- Header Section with Logo -->
   <header>
     <div class="logo">
       <img src="https://i.postimg.cc/y869vnYT/sonsoflegacyblainecounty.jpg" alt="Sons of Legacy Logo">
@@ -32,41 +16,35 @@
     <p>Honoring our past, celebrating our victories, and building a legacy.</p>
   </header>
 
-  <!-- About Section -->
   <section class="about">
     <h2>About Us</h2>
     <p>The Sons of Legacy is a community of brothers united in strength, honor, and tradition. Our journey is built on victories and experiences that we cherish and share with the world.</p>
   </section>
 
-  <!-- Victories Gallery -->
   <section class="gallery">
     <h2>Watch Our Victories</h2>
     <p>Check out some of our best moments captured in these galleries.</p>
 
-    <!-- Gallery 1: Our Epic Wins -->
     <div class="gallery-item">
       <h3>Gallery 1: Our Epic Wins</h3>
       <div class="photos">
-        <img src="https://i.postimg.cc/TP5Xd5QS/Screenshot-678.png" alt="Against Yakuza" class="clickable" onclick="expandImage('https://i.postimg.cc/TP5Xd5QS/Screenshot-678.png')">
-        <img src="https://i.postimg.cc/7L2p88Zr/Screenshot-702.png" alt="Against TLMC" class="clickable" onclick="expandImage('https://i.postimg.cc/7L2p88Zr/Screenshot-702.png')">
-        <img src="https://i.postimg.cc/Y9n6WWf2/Screenshot-681.png" alt="Against RHPD" class="clickable" onclick="expandImage('https://i.postimg.cc/Y9n6WWf2/Screenshot-681.png')">
+        <img src="https://i.postimg.cc/TP5Xd5QS/Screenshot-678.png" alt="Against Yakuza" class="clickable">
+        <img src="https://i.postimg.cc/7L2p88Zr/Screenshot-702.png" alt="Against TLMC" class="clickable">
+        <img src="https://i.postimg.cc/Y9n6WWf2/Screenshot-681.png" alt="Against RHPD" class="clickable">
       </div>
     </div>
 
-    <!-- Expanded Image Gallery (Initially Hidden) -->
-    <div id="expanded-gallery" class="expanded-gallery" onclick="closeGallery()">
+    <div id="expanded-gallery" class="expanded-gallery">
       <img id="expanded-image" src="" alt="Expanded Image">
     </div>
   </section>
 
-  <!-- YouTube Channel Link -->
   <section class="youtube">
     <h2>Follow Us on YouTube</h2>
     <p>Stay up to date with our latest victories and adventures. Watch our videos on YouTube!</p>
     <a href="https://www.youtube.com/channel/yourchannel" target="_blank">Visit Our YouTube Channel</a>
   </section>
 
-  <!-- Footer Section -->
   <footer>
     <p>© 2024 Sons of Legacy. All Rights Reserved.</p>
   </footer>
