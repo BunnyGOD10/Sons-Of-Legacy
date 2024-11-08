@@ -9,7 +9,7 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
   color: #333;
-  background-image: url('https://i.postimg.cc/wj1r6jyZ/Screenshot-490.png'); /* Replace with your background image URL */
+  background-image: url('https://i.postimg.cc/wj1r6jyZ/Screenshot-490.png'); /* Background Image */
   background-size: cover;  /* Ensures the image covers the whole page */
   background-position: center; /* Keeps the image centered */
   background-attachment: fixed; /* Keeps the background fixed when scrolling */
@@ -100,4 +100,19 @@ footer {
   padding: 10px;
   background-color: #333;
   color: white;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2em;
+  }
+
+  section h2 {
+    font-size: 1.8em;
+  }
+
+  .gallery .photos img {
+    max-width: 100%;  /* Ensure images fill up smaller screens properly */
+  }
 }
