@@ -11,4 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   // Close the expanded gallery when clicked
-  expandedGallery.addEventListener('click', function
+  expandedGallery.addEventListener('click', function() {
+    expandedGallery.style.display = 'none'; // Hide the expanded gallery
+  });
+});
