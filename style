@@ -9,11 +9,11 @@
 body {
   font-family: Arial, sans-serif;
   color: #333;
-  background-image: url('https://i.postimg.cc/wj1r6jyZ/Screenshot-490.png'); /* Background Image */
-  background-size: cover;  /* Ensures the image covers the whole page */
-  background-position: center; /* Keeps the image centered */
-  background-attachment: fixed; /* Keeps the background fixed when scrolling */
-  background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+  background-image: url('https://i.postimg.cc/wj1r6jyZ/Screenshot-490.png'); /* Your background image URL */
+  background-size: cover;  /* Ensure the image covers the entire page */
+  background-position: center; /* Keep the image centered */
+  background-attachment: fixed; /* Keep the background fixed when scrolling */
+  background-repeat: no-repeat; /* Ensure the image doesn't repeat */
 }
 
 header {
@@ -87,4 +87,33 @@ section p {
   max-width: 600px;
   margin-bottom: 15px;
   border-radius: 8px;
-  box-shadow: 0 4px 6px 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.youtube {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.youtube a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff4500;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+
+.youtube a:hover {
+  background-color: #e03e00;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+/* Responsive Design for Smaller Screens */
+@media
