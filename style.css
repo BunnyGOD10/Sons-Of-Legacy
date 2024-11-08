@@ -9,22 +9,24 @@
 body {
   font-family: Arial, sans-serif;
   color: #333;
-  background-image: url('https://i.postimg.cc/wj1r6jyZ/Screenshot-490.png');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  background-color: red; /* Set background color to red */
+  background-image: url('https://i.postimg.cc/wj1r6jyZ/Screenshot-490.png'); /* Your background image URL */
+  background-size: cover;  /* Ensure the image covers the entire page */
+  background-position: center; /* Keep the image centered */
+  background-attachment: fixed; /* Keep the background fixed when scrolling */
+  background-repeat: no-repeat; /* Ensure the image doesn't repeat */
 }
 
+/* Header Section */
 header {
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.6);  /* Semi-transparent background to enhance text visibility */
   color: white;
   padding: 40px 20px;
 }
 
 header .logo img {
-  width: 150px;
+  width: 150px;  /* Adjust logo size */
   height: auto;
   margin-bottom: 20px;
 }
@@ -37,10 +39,11 @@ header p {
   font-size: 1.2em;
 }
 
+/* Section Style */
 section {
   padding: 20px;
   margin: 20px 0;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.8); /* Slight transparency for better readability */
   border-radius: 10px;
 }
 
@@ -53,6 +56,7 @@ section p {
   font-size: 1.1em;
 }
 
+/* Gallery Style */
 .gallery {
   display: flex;
   flex-direction: column;
@@ -74,11 +78,12 @@ section p {
   max-width: 300px;
   height: auto;
   border-radius: 8px;
-  cursor: pointer;
+  cursor: pointer; /* Add pointer cursor on hover */
 }
 
+/* Expanded Gallery */
 .expanded-gallery {
-  display: none;
+  display: none; /* Hidden by default */
   margin-top: 20px;
 }
 
@@ -90,6 +95,7 @@ section p {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* YouTube Section */
 .youtube {
   text-align: center;
   margin: 40px 0;
@@ -108,6 +114,7 @@ section p {
   background-color: #e03e00;
 }
 
+/* Footer Style */
 footer {
   text-align: center;
   padding: 10px;
@@ -126,6 +133,6 @@ footer {
   }
 
   .gallery .photos img {
-    max-width: 100%;
+    max-width: 100%;  /* Ensure images fit the smaller screen size */
   }
 }
