@@ -5,15 +5,15 @@
   box-sizing: border-box;
 }
 
+/* Body Style */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
   color: #333;
-  background-image: url('https://i.postimg.cc/wj1r6jyZ/Screenshot-490.png'); /* Replace with your background image URL */
-  background-size: cover;  /* Ensures the image covers the whole page */
-  background-position: center; /* Keeps the image centered */
-  background-attachment: fixed; /* Keeps the background fixed when scrolling */
-  background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+  background-image: url('https://i.postimg.cc/wj1r6jyZ/Screenshot-490.png'); /* Your background image URL */
+  background-size: cover;  /* Ensure the image covers the entire page */
+  background-position: center; /* Keep the image centered */
+  background-attachment: fixed; /* Keep the background fixed when scrolling */
+  background-repeat: no-repeat; /* Ensure the image doesn't repeat */
 }
 
 header {
@@ -74,6 +74,19 @@ section p {
   max-width: 300px;
   height: auto;
   border-radius: 8px;
+  cursor: pointer; /* Add pointer cursor on hover */
+}
+
+.expanded-gallery {
+  display: none; /* Hidden by default */
+  margin-top: 20px;
+}
+
+.expanded-gallery img {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 15px;
+  border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -100,4 +113,19 @@ footer {
   padding: 10px;
   background-color: #333;
   color: white;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2em;
+  }
+
+  section h2 {
+    font-size: 1.8em;
+  }
+
+  .gallery .photos img {
+    max-width: 100%;  /* Ensure images fit the smaller screen size */
+  }
 }
